@@ -10,11 +10,12 @@ github.com/apex/log
 github.com/dgrijalva/jwt-go
 # github.com/fsnotify/fsnotify v1.4.7
 github.com/fsnotify/fsnotify
-# github.com/gin-contrib/sse v0.0.0-20190301062529-5545eab6dad3
+# github.com/gin-contrib/sse v0.1.0
 github.com/gin-contrib/sse
-# github.com/gin-gonic/gin v1.4.0
+# github.com/gin-gonic/gin v1.7.0
 github.com/gin-gonic/gin
 github.com/gin-gonic/gin/binding
+github.com/gin-gonic/gin/internal/bytesconv
 github.com/gin-gonic/gin/internal/json
 github.com/gin-gonic/gin/render
 # github.com/globalsign/mgo v0.0.0-20181015135952-eeefdecb41b8
@@ -23,12 +24,14 @@ github.com/globalsign/mgo/bson
 github.com/globalsign/mgo/internal/json
 github.com/globalsign/mgo/internal/sasl
 github.com/globalsign/mgo/internal/scram
-# github.com/go-playground/locales v0.12.1
+# github.com/go-playground/locales v0.13.0
 github.com/go-playground/locales
 github.com/go-playground/locales/currency
-# github.com/go-playground/universal-translator v0.16.0
+# github.com/go-playground/universal-translator v0.17.0
 github.com/go-playground/universal-translator
-# github.com/golang/protobuf v1.3.1
+# github.com/go-playground/validator/v10 v10.4.1
+github.com/go-playground/validator/v10
+# github.com/golang/protobuf v1.3.3
 github.com/golang/protobuf/proto
 # github.com/gomodule/redigo v2.0.0+incompatible
 github.com/gomodule/redigo/internal
@@ -56,17 +59,17 @@ github.com/imdario/mergo
 github.com/imroc/req
 # github.com/jaytaylor/html2text v0.0.0-20180606194806-57d518f124b0
 github.com/jaytaylor/html2text
-# github.com/json-iterator/go v1.1.6
+# github.com/json-iterator/go v1.1.9
 github.com/json-iterator/go
 # github.com/jtolds/gls v4.20.0+incompatible
 github.com/jtolds/gls
-# github.com/leodido/go-urn v1.1.0
+# github.com/leodido/go-urn v1.2.0
 github.com/leodido/go-urn
 # github.com/magiconair/properties v1.8.0
 github.com/magiconair/properties
 # github.com/matcornic/hermes v1.2.0
 github.com/matcornic/hermes
-# github.com/mattn/go-isatty v0.0.8
+# github.com/mattn/go-isatty v0.0.12
 github.com/mattn/go-isatty
 # github.com/mattn/go-runewidth v0.0.3
 github.com/mattn/go-runewidth
@@ -82,8 +85,6 @@ github.com/olekukonko/tablewriter
 github.com/pelletier/go-toml
 # github.com/pkg/errors v0.8.1
 github.com/pkg/errors
-# github.com/royeo/dingrobot v1.0.0
-github.com/royeo/dingrobot
 # github.com/satori/go.uuid v1.2.0
 github.com/satori/go.uuid
 # github.com/shurcooL/sanitized_anchor_name v1.0.0
@@ -110,28 +111,28 @@ github.com/spf13/pflag
 github.com/spf13/viper
 # github.com/ssor/bom v0.0.0-20170718123548-6386211fdfcf
 github.com/ssor/bom
-# github.com/ugorji/go v1.1.4
+# github.com/ugorji/go/codec v1.1.7
 github.com/ugorji/go/codec
-# golang.org/x/crypto v0.0.0-20190426145343-a29dc8fdc734
+# golang.org/x/crypto v0.0.0-20200622213623-75b288015ac9
 golang.org/x/crypto/pbkdf2
 golang.org/x/crypto/scrypt
+golang.org/x/crypto/sha3
 # golang.org/x/net v0.0.0-20190620200207-3b0461eec859
 golang.org/x/net/html
 golang.org/x/net/html/atom
-# golang.org/x/sys v0.0.0-20190412213103-97732733099d
+# golang.org/x/sys v0.0.0-20200116001909-b77594299b42
+golang.org/x/sys/cpu
 golang.org/x/sys/unix
-# golang.org/x/text v0.3.0
+# golang.org/x/text v0.3.2
 golang.org/x/text/transform
 golang.org/x/text/unicode/norm
 # gopkg.in/alexcesaro/quotedprintable.v3 v3.0.0-20150716171945-2caba252f4dc
 gopkg.in/alexcesaro/quotedprintable.v3
-# gopkg.in/go-playground/validator.v8 v8.18.2
-gopkg.in/go-playground/validator.v8
 # gopkg.in/go-playground/validator.v9 v9.29.1
 gopkg.in/go-playground/validator.v9
 # gopkg.in/gomail.v2 v2.0.0-20150902115704-41f357289737
 gopkg.in/gomail.v2
 # gopkg.in/russross/blackfriday.v2 v2.0.0
 gopkg.in/russross/blackfriday.v2
-# gopkg.in/yaml.v2 v2.2.2
+# gopkg.in/yaml.v2 v2.2.8
 gopkg.in/yaml.v2
